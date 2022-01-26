@@ -1,0 +1,123 @@
+CRITICAL - 2022-01-25 19:27:15 --> Class "App\Models\UserModel" not found
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->__construct()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-25 19:28:22 --> Undefined property: App\Controllers\User::$userModel
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\User.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 20)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\User->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+ERROR - 2022-01-25 19:28:54 --> Unknown column 'alunos.deleted_at' in 'where clause'
+CRITICAL - 2022-01-25 19:28:54 --> Unknown column 'alunos.deleted_at' in 'where clause'
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\User.php(20): CodeIgniter\BaseModel->paginate(10)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\User->index()
+#8 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#12 {main}
+CRITICAL - 2022-01-25 19:31:39 --> Undefined array key "username"
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\users.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Samsun...', 59)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\User.php(21): view('users', Array)
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\User->index()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+ERROR - 2022-01-25 19:33:02 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-01-25 19:33:02 --> Unknown column 'updated_at' in 'field list'
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alunos`...', 0)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alunos`...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alunos`...')
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alunos`...', Array, false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Model.php(356): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\User.php(27): CodeIgniter\BaseModel->delete(Array)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\User->delete('1')
+#8 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#12 {main}
+ERROR - 2022-01-25 16:59:18 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-01-25 16:59:18 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#10 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#11 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#14 {main}
+ERROR - 2022-01-25 16:59:59 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-01-25 16:59:59 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#10 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#11 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#14 {main}
+CRITICAL - 2022-01-25 17:03:15 --> Invalid file: aluno.php
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aluno.php')
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('aluno', Array, true)
+#2 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(21): view('aluno', Array)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->index()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#8 {main}
+CRITICAL - 2022-01-25 17:04:19 --> Invalid file: aluno.php
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aluno.php')
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('aluno', Array, true)
+#2 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(21): view('aluno', Array)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->index()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#8 {main}
+CRITICAL - 2022-01-25 17:04:36 --> Undefined variable $users
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\alunos.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Samsun...', 54)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('alunos', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(21): view('alunos', Array)
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->index()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}

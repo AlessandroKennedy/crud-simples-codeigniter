@@ -1,0 +1,474 @@
+CRITICAL - 2022-01-26 06:50:39 --> Undefined variable $quantidadeAlunos
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Samsun...', 31)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(16): view('home')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 06:50:52 --> count(): Argument #1 ($value) must be of type Countable|array, App\Models\AlunoModel given
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): count(Object(App\Models\AlunoModel))
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 06:51:08 --> Object of class App\Models\AlunoModel could not be converted to string
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): view('home', Array)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#9 {main}
+CRITICAL - 2022-01-26 06:51:29 --> Call to undefined method App\Models\AlunoModel::count
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): CodeIgniter\Model->__call('count', Array)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 06:52:31 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): view('home', Array)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#9 {main}
+CRITICAL - 2022-01-26 06:52:46 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 06:53:30 --> Call to undefined method App\Models\AlunoModel::num_rows
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 06:54:08 --> Unclosed '(' on line 19 does not match ']'
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Samsun...')
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#8 {main}
+CRITICAL - 2022-01-26 06:54:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 06:54:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count_all_results()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 06:55:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count_all_results()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 06:55:48 --> Cannot use object of type App\Models\AlunoModel as array
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): view('home', Array)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#9 {main}
+CRITICAL - 2022-01-26 06:56:16 --> Array to string conversion
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\Samsun...', 31)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): view('home', Array)
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 06:57:40 --> Call to undefined method App\Models\AlunoModel::num_rows
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(19): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 06:57:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 06:57:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 06:59:04 --> Undefined property: App\Controllers\Home::$db
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 16)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 06:59:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:21:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:22:23 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 46)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:23:40 --> Cannot call constructor
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:23:44 --> Cannot call constructor
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:23:46 --> Cannot call constructor
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:25:10 --> Cannot call constructor
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:27:41 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 47)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:30:27 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 47)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:31:50 --> Call to undefined function App\Controllers\library()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:32:13 --> Call to undefined method App\Controllers\Aluno::library()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:32:48 --> Call to undefined method App\Controllers\Aluno::library()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:32:54 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 47)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:37:06 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 47)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:37:20 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:37:54 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:41:23 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:41:26 --> Undefined property: App\Controllers\Aluno::$load
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aluno->__construct()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:41:45 --> Call to a member function hasMoved() on null
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:42:28 --> Class "App\Controllers\File" not found
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 07:42:56 --> Invalid file: upload_success.php
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('upload_success....')
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('upload_success', Array, true)
+#2 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(68): view('upload_success', Array)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#8 {main}
+CRITICAL - 2022-01-26 07:55:30 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 07:56:18 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 07:56:19 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 07:57:01 --> Undefined property: App\Controllers\Aluno::$session
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 40)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 07:57:50 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 07:58:30 --> Undefined variable $data
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 08:12:06 --> Undefined variable $errors
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form')
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 08:12:39 --> foreach() argument must be of type array|object, string given
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Views\form.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\Samsun...', 14)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Samsun...')
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(40): view('form', Array)
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->create()
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#7 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#10 {main}
+CRITICAL - 2022-01-26 08:25:11 --> Attempt to read property "name" on array
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\Samsun...', 45)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 08:25:44 --> Undefined array key 0
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Samsun...', 45)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 08:26:02 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$name
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 45)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 08:27:36 --> Too few arguments to function App\Controllers\Aluno::store(), 0 passed in C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
+CRITICAL - 2022-01-26 08:28:34 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Samsun...', 45)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 08:30:22 --> Attempt to read property "name" on array
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\Samsun...', 45)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 08:30:50 --> Undefined array key 0
+#0 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Aluno.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Samsun...', 45)
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Aluno->store()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aluno))
+#3 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#6 {main}
+CRITICAL - 2022-01-26 10:10:11 --> count(): Argument #1 ($var) must be of type Countable|array, string given
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\app\Controllers\Home.php(20): view('home', Array)
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#9 {main}
+CRITICAL - 2022-01-26 10:10:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Samsung\Desktop\crud alunos teste\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Samsung\Desktop\crud alunos teste\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samsun...')
+#5 {main}
